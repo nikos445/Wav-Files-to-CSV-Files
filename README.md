@@ -1,6 +1,7 @@
 # .wav files to .csv files 
 
-This projects reads a folder with wav files (input) and converts Wav files to CSV files. CSVs are saved in the output folder.
+This projects reads a folder with wav files (input) and converts Wav files to CSV files. 
+CSVs are saved in the output folder.
 
 
 # Installing
