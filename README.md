@@ -1,16 +1,32 @@
-# .wav to .csv
-Simple converting .wav file to .csv file with python.
-Inspired by [HadrienG2] https://github.com/HadrienG2/wav-csv-conversion
+# .wav files to .csv files 
 
-This Project provide converting process wav file to csv file for data analysis or processing.
+This projects reads a folder with wav files (input) and converts Wav files to CSV files. CSVs are saved in the output folder.
 
 
-# wav2csv How use
-0. Need scipy and pandas [pip install scipy],[pip install pandas] and python over 3.6
-1. Input wav file name with its format [sample.wav]
-2. After it finish load it begin to split channels and save. (If the audio type is mono it returns one csv file. If stereo it returns two Right and Left)
-3. Done!
+# Installing
 
-# And...
-sample wav file comes from BBC fx sound - http://bbcsfx.acropolis.org.uk/
-Any commits are welcomed
+0. Install Python3 and Python3 PIP   (for ubuntu: `apt install python3 python3-pip`)
+
+1. Clone project: ``` git clone PRJECT_URL ```
+
+2a. Install Requirements.
+
+``` pip install scipy && pip install pandas ```
+
+2b. or install all together from requirements file.
+ 
+```pip install -r requirements.txt```
+
+3. Add your wav files in the input folder.
+
+4. Run the program using the following command: ```python3 wav2csv.py```
+
+5. Find your CSV files in output folder.
+
+6. Done.
+
+
+
+
+
+
